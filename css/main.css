@@ -1,3 +1,7 @@
+.container{
+    text-align:center
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -12,7 +16,7 @@ input[type="text"]{
 }
 
 fieldset{
-    position: relative; 
+    box-sizing: border-box; 
     width:35%;
     min-width: 400px;
     max-width: 400px;
