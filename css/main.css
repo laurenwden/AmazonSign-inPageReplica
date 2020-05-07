@@ -1,0 +1,102 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+input[type="text"]{
+    margin:0 auto;
+    width: 90%;
+    padding: 0px 0px;
+    border: 2px solid grey;  
+}
+
+fieldset{
+    position: relative; 
+    width:35%;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 5px 10px; 
+    margin-bottom: 10px;
+    padding: 10px 5px; 
+    border: 2px solid lightgrey;
+    border-radius: 4px; 
+    font-size: x-small;
+    line-height: 1.25rem; 
+     
+}
+
+fieldset>h3, label, a, p, button{
+    width: 90%;
+    margin-left:20px;
+}
+
+.btn-warning{
+    font-size:x-small;
+    border: 1px solid gray
+}
+
+label{
+    font-weight: bold;
+    line-height:0.25rem;  
+}
+
+.forgotpassword{
+    display:inline;
+    padding: 200px;
+    text-align:right;
+    font-weight:lighter;
+    
+}
+
+p{font-size: x-large
+}
+
+.help{
+    font-size:small;
+}
+
+
+.snippet, h5{
+    color:gray;
+    font-size:12px;
+    text-align:center;
+    font-weight:lighter;
+}
+
+.border{
+    width:26%;
+    margin-top:-15px;
+    margin-left: 37%;
+    margin-right:37%;
+    border-bottom: 1px solid darkslategray;
+    text-align: center;
+    color: gray;
+    font-size:x-small;
+    
+}
+
+.btn-sm{
+    width: 26%;
+    margin-left: 37%;
+    margin-right:37%;
+    background-color: lightgray;
+    border: 1px solid gray;
+    font-size:x-small
+    
+}
+
+
+nav{
+    font-size: x-small;
+    margin:0 auto
+}
+
+.copyright,h6{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: lighter;
+}
