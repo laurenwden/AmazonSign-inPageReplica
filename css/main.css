@@ -1,45 +1,43 @@
-.container{
-    text-align:center
+body{
+    text-align:center;
+    margin:0 auto;
+    padding: 20px 0;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
+.col-md-4{
+    margin: 0 auto;
 }
 
 input[type="text"]{
-    margin:0 auto;
+    margin: 0 auto;
     width: 90%;
-    padding: 0px 0px;
-    border: 2px solid grey;  
+    padding: 0px 5px;
+    border: 1px solid grey;  
 }
 
 fieldset{
-    box-sizing: border-box; 
-    width:35%;
-    min-width: 400px;
-    max-width: 400px;
-    min-height: 300px;
-    max-height: 300px;
-    margin: 5px 10px; 
-    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: left; 
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 10px 5px; 
-    border: 2px solid lightgrey;
+    border: 1px solid #ddd;
     border-radius: 4px; 
     font-size: x-small;
     line-height: 1.25rem; 
      
 }
 
-fieldset>h3, label, a, p, button{
+fieldset>h3, label, .help{
     width: 90%;
     margin-left:20px;
 }
 
-.btn-warning{
-    font-size:x-small;
-    border: 1px solid gray
+.continue{
+    width: 90%;
+    margin: 10px 17px;
+    background-color: #F7c548;
+    border-color: #846a29 #9c7e31 #a88734
 }
 
 label{
@@ -49,13 +47,10 @@ label{
 
 .forgotpassword{
     display:inline;
-    padding: 200px;
+    padding: 180px;
     text-align:right;
     font-weight:lighter;
     
-}
-
-p{font-size: x-large
 }
 
 .help{
@@ -63,44 +58,61 @@ p{font-size: x-large
 }
 
 
-.snippet, h5{
-    color:gray;
-    font-size:12px;
-    text-align:center;
-    font-weight:lighter;
+h6,button{
+    width: 90%;
+    text-align: center;
 }
 
-.border{
-    width:26%;
-    margin-top:-15px;
-    margin-left: 37%;
-    margin-right:37%;
-    border-bottom: 1px solid darkslategray;
-    text-align: center;
-    color: gray;
-    font-size:x-small;
-    
+h6{
+    color: #767676;
+    font-size: 10px;
+    border-bottom: 1px solid #767676;
+    line-height: 0.1em;
+    margin: 30px 0 20px;
+}
+
+.center-span{
+    margin: 0 auto;
+    width: 55%;
+}
+span{
+    background-color: #fff;
+    color: #767676;
+    padding: 0 10px;
+}
+
+button{
+    font-size: 90%;
+    padding: 5px;
+    margin-top:25px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 2px;
+    margin-bottom:20px;
 }
 
 .btn-sm{
-    width: 26%;
-    margin-left: 37%;
-    margin-right:37%;
-    background-color: lightgray;
+    margin-bottom: 35px;
+    background-color: #d4d4d4;
     border: 1px solid gray;
     font-size:x-small
     
 }
 
-
-nav{
-    font-size: x-small;
-    margin:0 auto
+footer{
+    border-top: 1px solid #adb1b8;
 }
 
-.copyright,h6{
-    font-size: 13px;
+.footerElem>div>a>p{
+    display: inline;
     text-align: center;
-    margin-left: 10px;
-    font-weight: lighter;
+    padding: 10px 5px 5px 5px;
+    font-size: 70%;
+}
+
+.footerElem>p{
+    font-size: 60%;
+    text-align: center;
+    padding: 2px;
+
 }
